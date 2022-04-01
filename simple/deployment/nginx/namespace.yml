@@ -1,5 +1,4 @@
-# yamllint disable-file
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: {{ args.environment }}-nginx
+  name: "{{ args.environment }}-nginx"
